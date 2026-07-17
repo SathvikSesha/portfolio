@@ -293,38 +293,38 @@ export const codingProfiles = [
 export const journey = [
   {
     year: "2023",
-    title: "Programming Foundations",
+    title: "The Beginning",
     points: [
-      "Java and Python",
-      "Frontend basics",
-      "Small projects",
+      "Started my journey with Java and Python",
+      "Explored web development fundamentals",
+      "Built projects to strengthen programming skills",
     ],
   },
   {
     year: "2024",
-    title: "Data Structures & Full Stack",
+    title: "Learning by Building",
     points: [
-      "Data Structures & Algorithms",
-      "SQL and MERN stack",
-      "First full-stack applications",
+      "Solving Problems on Data structures and algorithms",
+      "Developed full-stack web applications using MERN stack",
+      "Built a strong foundation in databases and APIs",
     ],
   },
   {
     year: "2025",
-    title: "Backend Architecture",
+    title: "Thinking Like a Backend Engineer",
     points: [
-      "Authentication and JWT",
-      "REST API architecture",
-      "Spring Boot",
+      "Designed secure and scalable REST APIs",
+      "Applied clean architecture principles",
+      "Focused on reliability, logging, and performance",
     ],
   },
   {
     year: "2026",
-    title: "Cloud & AI",
+    title: "Building Production Systems",
     points: [
-      "Infosys Springboard internship",
-      "Docker, AWS, OAuth and Redis",
-      "AI applications and System Design",
+      "Completed an industry internship",
+      "Worked with cloud infrastructure and containers",
+      "Applied AI and system design to solve real-world problems",
     ],
   },
 ];

@@ -16,25 +16,35 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://seshasathvik.dev"),
-  title: "Sesha Sathvik — Backend Engineer & Cloud Enthusiast",
+  title: "Sesha Sathvik — Backend Engineer",
   description:
-    "Portfolio of Sesha Sathvik, a backend engineer and Computer Science student at VIT-AP University building scalable systems with Java, Spring Boot, cloud infrastructure and AI.",
+    "Sesha Sathvik, a backend engineer and Computer Science student at VIT-AP University building scalable systems with Java, Spring Boot, cloud infrastructure and AI.",
   keywords: [
     "Sesha Sathvik",
     "Backend Engineer",
-    "Java Developer",
+    "Java",
     "Spring Boot",
-    "Cloud Engineer",
-    "Software Engineer Portfolio",
+    "Node.js",
+    "React",
+    "AWS",
+    "REST API",
+    "System Design",
+    "Software Engineer",
+    "Portfolio",
   ],
   authors: [{ name: "Sesha Sathvik" }],
   openGraph: {
-    title: "Sesha Sathvik — Backend Engineer & Cloud Enthusiast",
+    title: "Sesha Sathvik — Backend Engineer",
     description:
-      "Building scalable software, one system at a time. Explore projects, engineering journey and case studies.",
+      "Sesha Sathvik, a backend engineer and Computer Science student at VIT-AP University building scalable systems with Java, Spring Boot, cloud infrastructure and AI.",
     type: "website",
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  creator: "Sesha Sathvik",
+  publisher: "Sesha Sathvik",
 };
 
 export default function RootLayout({
