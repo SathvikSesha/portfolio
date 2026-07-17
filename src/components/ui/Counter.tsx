@@ -15,7 +15,7 @@ export default function Counter({
   className?: string;
 }) {
   const ref = useRef<HTMLSpanElement>(null);
-  const inView = useInView(ref, { once: true, margin: "-80px" });
+  const inView = useInView(ref, { once: true });
   const motionValue = useMotionValue(0);
   const spring = useSpring(motionValue, { damping: 24, stiffness: 90 });
 
